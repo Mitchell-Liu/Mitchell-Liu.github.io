@@ -1,6 +1,7 @@
 let myHeading = document.querySelector('h1');
-doucment.querySelector('p').addEventListener("click", () => {
+myHeading.textContent = 'Hello world!';
+document.querySelector('p').addEventListener("click", () => {
   alert("hello");
 });
-myHeading.textContent = 'Hello world!';
+
 
